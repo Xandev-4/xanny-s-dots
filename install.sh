@@ -2,7 +2,7 @@
 set -e
 
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-NVIM_REPO="https://github.com/Xandev-4/nvim.git"
+NVIM_REPO="https://github.com/Xandev-4/neovim-config.git"
 
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
@@ -21,6 +21,15 @@ NATIVE_PKGS=(
     matugen
     qt6ct
     kvantum
+    cliphist
+    wl-clipboard
+    hyprpicker
+    playerctl
+    swaylock
+    brightnessctl
+    network-manager-applet
+    blueman
+    polkit-kde-agent
     fish
     starship
     kitty
@@ -43,6 +52,7 @@ NATIVE_PKGS=(
     ttf-jetbrains-mono-nerd
     awesome-terminal-fonts
     noto-fonts-emoji
+    awww
 )
 
 AUR_PKGS=(
@@ -50,6 +60,8 @@ AUR_PKGS=(
     nomacs
     wayvibes-git
     qt5ct-kde
+    zen-browser-bin
+    comixcursors-opaque
 )
 
 print_banner() {

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SOUNDPACK="/home/xandev/Software/nk-cream"
+SOUNDPACK="$HOME/.config/wayvibes/nk-cream"
 
 HEADSET=$(wpctl status | grep -i "cAVS Headphones")
 

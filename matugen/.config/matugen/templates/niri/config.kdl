@@ -17,7 +17,7 @@ spawn-sh-at-startup "blueman-applet"
 spawn-sh-at-startup "wl-paste --type text --watch cliphist store"
 spawn-sh-at-startup "wl-paste --type image --watch cliphist store"
 spawn-sh-at-startup "awww-daemon &"
-spawn-sh-at-startup "wayvibes /home/xandev/Software/nk-cream -v 0.5"
+spawn-sh-at-startup "wayvibes $HOME/.config/wayvibes/nk-cream -v 0.5"
 spawn-sh-at-startup "sh -c sleep 2 && ~/.config/niri/scripts/wayvibes-autovol.sh"
 
 config-notification {
