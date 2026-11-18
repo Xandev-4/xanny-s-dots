@@ -1,0 +1,16 @@
+[Unit]
+Description=AGS Widget
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStartPre=/bin/sleep 1
+ExecStart=/usr/bin/ags run /home/xandev/.config/ags/app.tsx
+Environment=WAYLAND_DISPLAY=wayland-1
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=graphical-session.target

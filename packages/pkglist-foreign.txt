@@ -1,0 +1,13 @@
+antigravity-ide
+aylurs-gtk-shell-git
+darkly-bin
+ghgrab-bin
+google-chrome
+nomacs
+postman-bin
+qt5ct-kde
+sddm-silent-theme
+squirrel-disk
+toofan-bin
+wayvibes-git
+win2xcur
